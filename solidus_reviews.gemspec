@@ -17,9 +17,9 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'solidus', ['>= 1.4', '< 3']
+  s.add_dependency 'solidus', ['>= 1.4']
   s.add_dependency 'deface', '~> 1'
-  s.add_dependency 'solidus_auth_devise', ['>= 1.0', '< 3']
+  s.add_dependency 'solidus_auth_devise', ['>= 1.0']
   s.add_dependency 'solidus_support', '~> 0.1'
 
   s.add_development_dependency 'ffaker'
